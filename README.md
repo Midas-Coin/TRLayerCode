@@ -1,6 +1,7 @@
 # TR Code Protocol · v5.0
 
 > **Transparent Rights Code** — an open protocol for embedding verifiable metadata into images, audio, and video imperceptibly.
+![TR Code Example](examples/A_classical_oil_painting-style_meme.png)
 
 ![Version](https://img.shields.io/badge/version-v5.0-blue)
 ![License](https://img.shields.io/badge/license-BUSL--1.1-green)
