@@ -59,6 +59,7 @@ TR Code Protocol is free for personal, academic, and non-commercial use.
 
 See [`LICENSE_PURCHASE.md`](LICENSE_PURCHASE.md) for details.  
 Contact: 📧 info@canterburytech.co.uk
+         📧 admin@canterburytech.co.uk
 
 We actively monitor usage for enforcement.
 
