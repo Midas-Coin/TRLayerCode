@@ -48,7 +48,7 @@ Extracted metadata will be saved to `extracted_metadata.json`.
 You can decode embedded metadata from the included images:
 
 - `/examples/AI_Sherlock.png`
-- `/examples/A_classical_oil_painting-style_meme.png
+- `/examples/A_classical_oil_painting-style_meme.png`
 
 ---
 
