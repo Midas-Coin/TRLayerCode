@@ -9,7 +9,7 @@ To commercially use or integrate TR Code Protocol, you must obtain a paid licens
 | Indie Developer        | £99/year          |
 | Startup License        | £999/year         |
 | Commerical License     | £5000+/year — Contact Us |
-| Enterprise License     | Starting at £250,000 — Contact Us |
+| Enterprise License     | Starting at £250,000/year — Contact Us |
 
 | Tier                  | Size (Employees)  |
 |------------------------|------------------|
