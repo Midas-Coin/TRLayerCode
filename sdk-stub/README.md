@@ -1,13 +1,28 @@
 # TR Code SDK (Stub)
 
-This is a functional SDK prototype showing the intended workflow for TR Code embedding and extraction.
+# TR Code SDK (Stub)
 
-## Usage
-```bash
-python image_tr_encoder.py input.jpg metadata.json output.jpg
-python image_tr_decoder.py output.jpg
+This is a functional minimal SDK demonstrating the embedding and extraction of Transparent Rights (TR) Layer Code across different media types.
+
+---
+
+## 📸 Image Usage
+```
+python image/image_tr_encoder.py input.jpg image/tr_metadata.json output.jpg
+python image/image_tr_decoder.py output.jpg
 ```
 
-This module is under active development and will evolve with the protocol... 
+## 🔉 Audio Usage
+```
+python audio/audio_tr_encoder.py input.wav audio/tr_metadata.json output.wav
+python audio/audio_tr_decoder.py output.wav
+```
 
-Audio / Video usages are in the exact same way; but with each respective medium type 
+## 🎥 Video Usage
+```
+python video/video_tr_encoder.py input.mp4 video/tr_metadata.json output.mp4
+python video/video_tr_decoder.py output.mp4
+```
+
+## Dev Notes
+Note: This SDK is under active development and will evolve with the TR Layer Code protocol specifications.
