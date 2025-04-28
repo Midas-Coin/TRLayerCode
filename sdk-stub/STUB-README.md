@@ -1,7 +1,5 @@
 # TR Code SDK (Stub)
 
-# TR Code SDK (Stub)
-
 This is a functional minimal SDK demonstrating the embedding and extraction of Transparent Rights (TR) Layer Code across different media types.
 
 ---
