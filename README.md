@@ -2,8 +2,9 @@
 
 > **Transparent Rights Code** — an open protocol for embedding verifiable metadata into images, audio, and video imperceptibly.
 ![TR Code Example](examples/A_classical_oil_painting-style_meme.png)
+The image above is an example of an image embedded with imperceptible metadata; which does not majorly affect the appearance of the original image, but still allows for encoded metadata to be present.
 
-![Version](https://img.shields.io/badge/version-v5.0-blue)
+![Version](https://img.shields.io/badge/version-v5.1-blue)
 ![License](https://img.shields.io/badge/license-BUSL--1.1-green)
 
 ---
@@ -71,7 +72,7 @@ You can decode embedded metadata from the included images:
 
 ```bash
 # Image Encoding
-python image/tr_encoder.py input_image.png output_image.png
+python image/image_tr_encoder.py input_image.png output_image.png
 
 # Audio Encoding
 python audio/audio_tr_encoder.py input.wav output.wav
