@@ -4,7 +4,7 @@
 ![TR Code Example](examples/A_classical_oil_painting-style_meme.png)
 The image above is an example of an image embedded with imperceptible metadata; which does not majorly affect the appearance of the original image, but still allows for encoded metadata to be present.
 
-![Version](https://img.shields.io/badge/version-v5.1-blue)
+![Version](https://img.shields.io/badge/version-v5.2-blue)
 ![License](https://img.shields.io/badge/license-BUSL--1.1-green)
 
 ---
@@ -167,5 +167,5 @@ TR Code was developed to empower digital creators — not to undermine human rig
 
 ## ⚡ Version
 
-- **Current:** TR Layer Code V5.1
+- **Current:** TR Layer Code V5.2
 - **Next:** Future updates may include streaming input support, additional robustness features.
