@@ -1,4 +1,4 @@
-# TR Code Protocol · v5.1
+# TR Code Protocol · v5.2
 
 > **Transparent Rights Code** — an open protocol for embedding verifiable metadata into images, audio, and video imperceptibly.
 ![TR Code Example](examples/A_classical_oil_painting-style_meme.png)
@@ -18,8 +18,52 @@ The embedding is:
 - **Detectable and extractable by machines**
 - **Applicable to images, audio, and video**
 
+---
+
+## ✅ Current Functional Implementation
+
+- **Image/ Audio/ Video Modulation (LSB Encoding/Decoding)**
+  - Proof-of-concept using Least Significant Bit (LSB) modulation to encode metadata directly into PNG image pixels, soundwaves via .wav files, and videoframes via .mp4 files.
+  - Includes both encoder and decoder modules.
+  - Example metadata is stored in `tr_metadata.json`, and output is written to `extracted_metadata.json`.
+
+---
+
+## 🔧 Modulation Methods (Supported by Protocol)
+
+> ⚠️ Note: This SDK uses **LSB (Least Significant Bit)** encoding as a working example.  
+> The TR Layer Code protocol is not limited to LSB and can be expanded modularly.
+
+### 🖼️ Image Domain
+
+| Method                        | Description |
+|-------------------------------|-------------|
+| **LSB (Least Significant Bit)** | Pixel-level bit encoding (used in this SDK) |
+| **DCT Coefficient Modulation** | Encoding in frequency domain (JPEG-like images) |
+| **Color Channel Biasing**      | Slight RGB shifts to represent encoded values |
+| **Pixel Cluster Modulation**   | Encoding via parity across adjacent pixel groups |
+
+### 🔊 Audio Domain
+
+| Method                            | Description |
+|-----------------------------------|-------------|
+| **Echo Hiding**                   | Delayed audio echoes encode binary patterns |
+| **Phase Modulation**              | Subtle shifts in phase spectrum encode values |
+| **Frequency Masking**             | High-frequency or low-volume modulation |
+| **Envelope Shaping**              | Modulate amplitude envelope patterns |
+
+### 🎥 Video Domain
+
+| Method                            | Description |
+|-----------------------------------|-------------|
+| **Frame LSB Modulation**          | Apply LSB per frame across time |
+| **Temporal Pixel Drift**          | Encode metadata in shifting frame sequences |
+| **Invisible Flicker Encoding**    | Modulation of brightness in imperceptible bands |
+
 
 ##  World's first Transparent Rights (TR) Layer Code SDK.
+
+This is a functional prototype implementation of the TR Layer Code — a protocol for embedding imperceptible, machine-readable metadata into media such as images, audio, and video. The goal is to create a universal provenance and rights-tracking layer for digital assets.
 
 Now Supports imperceptible metadata embedding into:
 - Images (pixel LSB modulation) *(Encoder/Decoder ready)*
